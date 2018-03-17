@@ -26,4 +26,9 @@ object JavaScript_DeployToStaging : BuildType({
 	    }
 	}
     }
+    triggers {
+    vcs {
+        id = "vcsTrigger"
+	}
+}
 })
